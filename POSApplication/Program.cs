@@ -17,6 +17,7 @@ namespace POSApplication
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());
+            // Hello Công Đạt
         }
     }
 }

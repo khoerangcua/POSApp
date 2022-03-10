@@ -1,0 +1,9 @@
+D:\Code\TestGit4\POSApp\POSApplication\bin\Debug\POSApplication.exe.config
+D:\Code\TestGit4\POSApp\POSApplication\bin\Debug\POSApplication.exe
+D:\Code\TestGit4\POSApp\POSApplication\bin\Debug\POSApplication.pdb
+D:\Code\TestGit4\POSApp\POSApplication\obj\Debug\POSApplication.csproj.AssemblyReference.cache
+D:\Code\TestGit4\POSApp\POSApplication\obj\Debug\POSApplication.Properties.Resources.resources
+D:\Code\TestGit4\POSApp\POSApplication\obj\Debug\POSApplication.csproj.GenerateResource.cache
+D:\Code\TestGit4\POSApp\POSApplication\obj\Debug\POSApplication.csproj.CoreCompileInputs.cache
+D:\Code\TestGit4\POSApp\POSApplication\obj\Debug\POSApplication.exe
+D:\Code\TestGit4\POSApp\POSApplication\obj\Debug\POSApplication.pdb

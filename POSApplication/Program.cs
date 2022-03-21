@@ -17,9 +17,6 @@ namespace POSApplication
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());
-            // Đây là master
         }
-
-        
     }
 }

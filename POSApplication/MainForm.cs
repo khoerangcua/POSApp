@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using POSService;
+using POSDataModel;
+
 
 namespace POSApplication
 {
@@ -15,11 +18,15 @@ namespace POSApplication
         public MainForm()
         {
             InitializeComponent();
+
+            System_Layer system_Layer = new System_Layer();
+            system_Layer.TaoHoaDonMoi();
+           
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
-
+            
         }
     }
 }

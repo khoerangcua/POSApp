@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CC0CAE11-EEAA-4711-B8BA-46DF4D6776E6}</ProjectGuid>
+    <ProjectGuid>{81B1C310-7BC8-4ACD-8CE0-F72B9655E9DD}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>POSDataModel</RootNamespace>
     <AssemblyName>POSDataModel</AssemblyName>
@@ -33,8 +33,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,8 +59,41 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="POSDataModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>POSDataModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POSDataModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>POSDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="POSDataModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>POSDataModel.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tbl_chitiethoadon.cs">
+      <DependentUpon>POSDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_danhmuchanghoa.cs">
+      <DependentUpon>POSDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_giamgia.cs">
+      <DependentUpon>POSDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_hanghoa.cs">
+      <DependentUpon>POSDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_hoadon.cs">
+      <DependentUpon>POSDataModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbl_khachhang.cs">
+      <DependentUpon>POSDataModel.tt</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +103,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EntityDeploy Include="POSDataModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>POSDataModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="packages.config" />
+    <None Include="POSDataModel.edmx.diagram">
+      <DependentUpon>POSDataModel.edmx</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -75,6 +123,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="POSDataModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>POSDataModel.Context.cs</LastGenOutput>
+      <DependentUpon>POSDataModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="POSDataModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>POSDataModel.edmx</DependentUpon>
+      <LastGenOutput>POSDataModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

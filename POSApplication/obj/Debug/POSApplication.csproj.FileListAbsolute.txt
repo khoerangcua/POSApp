@@ -8,3 +8,15 @@ E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\bin\Debug\POSApplicat
 E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\bin\Debug\POSApplication.pdb
 E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\obj\Debug\POSApplication.exe
 E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\obj\Debug\POSApplication.pdb
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\bin\Debug\POSService.dll
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\bin\Debug\POSService.pdb
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\bin\Debug\POSService.dll.config
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\obj\Debug\POSApplication.csproj.CopyComplete
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\bin\Debug\POSDataModel.exe
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\bin\Debug\EntityFramework.dll
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\bin\Debug\POSDataModel.pdb
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\bin\Debug\POSDataModel.exe.config
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\bin\Debug\EntityFramework.xml
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\bin\Debug\EntityFramework.SqlServer.dll
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\bin\Debug\EntityFramework.SqlServer.xml
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\obj\Debug\POSApplication.exe.config

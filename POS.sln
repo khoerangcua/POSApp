@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSApplication", "POSApplic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSService", "POSService\POSService.csproj", "{48AFF62F-31B6-41FC-919A-935345A8538F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSDataModel", "POSDataModel\POSDataModel.csproj", "{CC0CAE11-EEAA-4711-B8BA-46DF4D6776E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSDataModel", "POSDataModel\POSDataModel.csproj", "{81B1C310-7BC8-4ACD-8CE0-F72B9655E9DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{48AFF62F-31B6-41FC-919A-935345A8538F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48AFF62F-31B6-41FC-919A-935345A8538F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48AFF62F-31B6-41FC-919A-935345A8538F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CC0CAE11-EEAA-4711-B8BA-46DF4D6776E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC0CAE11-EEAA-4711-B8BA-46DF4D6776E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC0CAE11-EEAA-4711-B8BA-46DF4D6776E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC0CAE11-EEAA-4711-B8BA-46DF4D6776E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B1C310-7BC8-4ACD-8CE0-F72B9655E9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B1C310-7BC8-4ACD-8CE0-F72B9655E9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B1C310-7BC8-4ACD-8CE0-F72B9655E9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B1C310-7BC8-4ACD-8CE0-F72B9655E9DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

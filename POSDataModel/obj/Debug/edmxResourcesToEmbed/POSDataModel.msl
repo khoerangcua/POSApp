@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="POSModelStoreContainer" CdmEntityContainer="POSEntities">
+    <EntitySetMapping Name="tbl_danhmuchanghoa">
+      <EntityTypeMapping TypeName="POSModel.tbl_danhmuchanghoa">
+        <MappingFragment StoreEntitySet="tbl_danhmuchanghoa">
+          <ScalarProperty Name="iddanhmuc" ColumnName="iddanhmuc" />
+          <ScalarProperty Name="tendanhmuc" ColumnName="tendanhmuc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_hanghoa">
+      <EntityTypeMapping TypeName="POSModel.tbl_hanghoa">
+        <MappingFragment StoreEntitySet="tbl_hanghoa">
+          <ScalarProperty Name="iddanhmuc" ColumnName="iddanhmuc" />
+          <ScalarProperty Name="diachianh" ColumnName="diachianh" />
+          <ScalarProperty Name="dongia" ColumnName="dongia" />
+          <ScalarProperty Name="tenhanghoa" ColumnName="tenhanghoa" />
+          <ScalarProperty Name="idhanghoa" ColumnName="idhanghoa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_hoadon">
+      <EntityTypeMapping TypeName="POSModel.tbl_hoadon">
+        <MappingFragment StoreEntitySet="tbl_hoadon">
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="trangthaithanhtoan" ColumnName="trangthaithanhtoan" />
+          <ScalarProperty Name="phuongthucthanhtoan" ColumnName="phuongthucthanhtoan" />
+          <ScalarProperty Name="idkhachhang" ColumnName="idkhachhang" />
+          <ScalarProperty Name="tongtien" ColumnName="tongtien" />
+          <ScalarProperty Name="ngaylap" ColumnName="ngaylap" />
+          <ScalarProperty Name="idhoadon" ColumnName="idhoadon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_khachhang">
+      <EntityTypeMapping TypeName="POSModel.tbl_khachhang">
+        <MappingFragment StoreEntitySet="tbl_khachhang">
+          <ScalarProperty Name="diachi" ColumnName="diachi" />
+          <ScalarProperty Name="sodienthoai" ColumnName="sodienthoai" />
+          <ScalarProperty Name="emai" ColumnName="emai" />
+          <ScalarProperty Name="tenkhachhang" ColumnName="tenkhachhang" />
+          <ScalarProperty Name="idkhachhang" ColumnName="idkhachhang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_giamgia">
+      <EntityTypeMapping TypeName="POSModel.tbl_giamgia">
+        <MappingFragment StoreEntitySet="tbl_giamgia">
+          <ScalarProperty Name="idhanghoa" ColumnName="idhanghoa" />
+          <ScalarProperty Name="phantramgiam" ColumnName="phantramgiam" />
+          <ScalarProperty Name="ngayketthuc" ColumnName="ngayketthuc" />
+          <ScalarProperty Name="ngaybatdau" ColumnName="ngaybatdau" />
+          <ScalarProperty Name="idgiamgia" ColumnName="idgiamgia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_chitiethoadon">
+      <EntityTypeMapping TypeName="POSModel.tbl_chitiethoadon">
+        <MappingFragment StoreEntitySet="tbl_chitiethoadon">
+          <ScalarProperty Name="idhanghoa" ColumnName="idhanghoa" />
+          <ScalarProperty Name="idhoadon" ColumnName="idhoadon" />
+          <ScalarProperty Name="phantramgiam" ColumnName="phantramgiam" />
+          <ScalarProperty Name="dongia" ColumnName="dongia" />
+          <ScalarProperty Name="tongcong" ColumnName="tongcong" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+          <ScalarProperty Name="idchitiethoadon" ColumnName="idchitiethoadon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

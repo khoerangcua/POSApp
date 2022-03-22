@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace POSApplication
+namespace POSApplication.DanhMucSanPham
 {
-    public partial class MainForm : Form
+    public partial class DanhMucsForm : Form
     {
-        public MainForm()
+        public DanhMucsForm()
         {
             InitializeComponent();
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

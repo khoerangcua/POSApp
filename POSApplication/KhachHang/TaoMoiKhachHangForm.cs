@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace POSApplication
+namespace POSApplication.KhachHang
 {
-    public partial class MainForm : Form
+    public partial class TaoMoiKhachHangForm : Form
     {
-        public MainForm()
+        public TaoMoiKhachHangForm()
         {
             InitializeComponent();
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

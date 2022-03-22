@@ -7,3 +7,10 @@ D:\Code\TestGit4\POSApp\POSApplication\obj\Debug\POSApplication.csproj.GenerateR
 D:\Code\TestGit4\POSApp\POSApplication\obj\Debug\POSApplication.csproj.CoreCompileInputs.cache
 D:\Code\TestGit4\POSApp\POSApplication\obj\Debug\POSApplication.exe
 D:\Code\TestGit4\POSApp\POSApplication\obj\Debug\POSApplication.pdb
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\obj\Debug\POSApplication.csproj.AssemblyReference.cache
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\obj\Debug\POSApplication.MainForm.resources
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\obj\Debug\POSApplication.Properties.Resources.resources
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\obj\Debug\POSApplication.csproj.GenerateResource.cache
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\obj\Debug\POSApplication.csproj.CoreCompileInputs.cache
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\obj\Debug\POSApplication.exe
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\obj\Debug\POSApplication.pdb

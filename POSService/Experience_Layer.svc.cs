@@ -11,23 +11,66 @@ namespace POSService
     // NOTE: In order to launch WCF Test Client for testing this service, please select Experience_Layer.svc or Experience_Layer.svc.cs at the Solution Explorer and start debugging.
     public class Experience_Layer : IExperience_Layer
     {
+        Task_Layer Task_Layer;
+        System_Layer System_Layer;
+        public Experience_Layer()
+        {
+            Task_Layer = new Task_Layer();
+            System_Layer = new System_Layer();
+        }
+
         public void DoWork()
         {
         }
 
         public HoaDon ThanhToanHoaDon(int idhoadon, byte phuongthucthanhtoan, bool guimail)
         {
-            throw new NotImplementedException();
+            HoaDon hoaDonMoi;
+            bool thanhtoanthanhcong;
+            if (phuongthucthanhtoan == 0)
+            {
+                thanhtoanthanhcong = Task_Layer.ThanhToanTienMat(idhoadon);
+            }
+            if (phuongthucthanhtoan == 1)
+            {
+                thanhtoanthanhcong = Task_Layer.ThanhToanBangThe(idhoadon);
+            }
+            if (guimail == true)
+            {
+                Task_Layer.GuiMail(idhoadon);
+            }
+            else
+            {
+                System_Layer.UpdateMailToHoaDon(idhoadon, false);
+            }
+            hoaDonMoi = System_Layer.TaoHoaDonMoi();
+            return hoaDonMoi;
         }
 
         public HoaDon ThemSanPhamVaoHoaDon(int idhoadon, int idsanpham, int soluong)
         {
-            throw new NotImplementedException();
+            HoaDon hoaDon;
+            Task_Layer.AddHoaDonItem(idhoadon, idsanpham, soluong);
+            Task_Layer.UpdateTongTienHoaDon(idhoadon);
+            hoaDon = System_Layer.GetHoaDonInfor(idhoadon);
+            return hoaDon;
         }
 
         public HoaDon XoaSanPhamKhoiHoaDon(int idhoadon, int idsanpham)
         {
-            throw new NotImplementedException();
+            int soluong;
+            HoaDon hoaDons;
+            soluong = System_Layer.CountHoaDonOfSingleItem(idhoadon, idsanpham);
+            if (soluong > 1)
+            {
+                System_Layer.UpdateHoaDonItem(idhoadon, idsanpham);
+            }
+            if (soluong == 1)
+            {
+                System_Layer.RemoveHoaDonItem(idhoadon, idsanpham);
+            }
+            hoaDons = System_Layer.GetHoaDonInfor(idhoadon);
+            return hoaDons;
         }
     }
 }

@@ -14,6 +14,9 @@ namespace POSService
         [OperationContract]
         void DoWork();
         [OperationContract]
+        bool QuetTheAPI();
+
+        [OperationContract]
         List<DanhMucSanPham> GetDanhMucSanPham();
 
         [OperationContract]
@@ -122,55 +125,47 @@ namespace POSService
     public class GiamGia
     {
         int idGiamGia;
-        DateTime ngayBatDau;
+        
         private DateTime? ngaybatdau;
-        DateTime ngayKetThuc;
+        
         private DateTime? ngayketthuc;
-        double phanTramGia;
-        int idHangHoa;
+        
+        
         private int? idhanghoa;
         private double? phantramgiam;
 
-        public GiamGia(int idGiamGia, DateTime ngayBatDau, DateTime ngayKetThuc, double phanTramGia, int idHangHoa)
-        {
-            this.IdGiamGia = idGiamGia;
-            this.NgayBatDau = ngayBatDau;
-            this.NgayKetThuc = ngayKetThuc;
-            this.PhanTramGia = phanTramGia;
-            this.IdHangHoa = idHangHoa;
-        }
 
         public GiamGia(int idgiamgia, DateTime? ngaybatdau, DateTime? ngayketthuc, double? phantramgiam, int? idhanghoa)
         {
             idGiamGia = idgiamgia;
-            this.ngaybatdau = ngaybatdau;
-            this.ngayketthuc = ngayketthuc;
-            this.phantramgiam = phantramgiam;
-            this.idhanghoa = idhanghoa;
+            this.Ngaybatdau = ngaybatdau;
+            this.Ngayketthuc = ngayketthuc;
+            this.Phantramgiam = phantramgiam;
+            this.Idhanghoa = idhanghoa;
         }
 
         public int IdGiamGia { get => idGiamGia; set => idGiamGia = value; }
-        public DateTime NgayBatDau { get => ngayBatDau; set => ngayBatDau = value; }
-        public DateTime NgayKetThuc { get => ngayKetThuc; set => ngayKetThuc = value; }
-        public double PhanTramGia { get => phanTramGia; set => phanTramGia = value; }
-        public int IdHangHoa { get => idHangHoa; set => idHangHoa = value; }
+        public DateTime? Ngaybatdau { get => ngaybatdau; set => ngaybatdau = value; }
+        public DateTime? Ngayketthuc { get => ngayketthuc; set => ngayketthuc = value; }
+        public int? Idhanghoa { get => idhanghoa; set => idhanghoa = value; }
+        public double? Phantramgiam { get => phantramgiam; set => phantramgiam = value; }
     }
 
     [DataContract]
     public class ChiTietHoaDon
     {
         int idChiTietHoaDon;
-        int soLuong;
+      
         private int? soluong;
-        double tongCong;
+        
         private double? tongcong;
-        double donGia;
+        
         private double? dongia;
-        double phanTramGiam;
+      
         private double? phantramgiam;
-        int idHoaDon;
+       
         private int? idhoadon;
-        int idHangHoa;
+     
         private int? idhanghoa;
         
 
@@ -178,24 +173,22 @@ namespace POSService
         public ChiTietHoaDon(int idchitiethoadon, int? soluong, double? tongcong, double? dongia, double? phantramgiam, int? idhoadon, int? idhanghoa)
         {
             idChiTietHoaDon = idchitiethoadon;
-            this.soluong = soluong;
-            this.tongcong = tongcong;
-            this.dongia = dongia;
-            this.phantramgiam = phantramgiam;
-            this.idhoadon = idhoadon;
-            this.idhanghoa = idhanghoa;
+            this.Soluong = soluong;
+            this.Tongcong = tongcong;
+            this.Dongia = dongia;
+            this.Phantramgiam = phantramgiam;
+            this.Idhoadon = idhoadon;
+            this.Idhanghoa = idhanghoa;
            
         }
 
         public int IdChiTietHoaDon { get => idChiTietHoaDon; set => idChiTietHoaDon = value; }
-        public int SoLuong { get => soLuong; set => soLuong = value; }
-        public double TongCong { get => tongCong; set => tongCong = value; }
-        public double DonGia { get => donGia; set => donGia = value; }
-        public double PhanTramGiam { get => phanTramGiam; set => phanTramGiam = value; }
-        public int IdHoaDon { get => idHoaDon; set => idHoaDon = value; }
-        public int IdHangHoa { get => idHangHoa; set => idHangHoa = value; }
-       
-        
+        public int? Soluong { get => soluong; set => soluong = value; }
+        public double? Tongcong { get => tongcong; set => tongcong = value; }
+        public double? Dongia { get => dongia; set => dongia = value; }
+        public double? Phantramgiam { get => phantramgiam; set => phantramgiam = value; }
+        public int? Idhoadon { get => idhoadon; set => idhoadon = value; }
+        public int? Idhanghoa { get => idhanghoa; set => idhanghoa = value; }
     }
 
     [DataContract]
@@ -212,19 +205,10 @@ namespace POSService
         private byte? phuongthucthanhtoan;
         bool trangThaiThanhToan;
         private bool? trangthaithanhtoan;
-        bool mail;
+        
         private bool? mail1;
 
-        public HoaDon(int idhoadon, DateTime? ngaylap, double? tongtien, int? idkhachhang, byte? phuongthucthanhtoan, bool? trangthaithanhtoan, bool mail)
-        {
-            idHoaDon = idhoadon;
-            this.ngaylap = ngaylap;
-            this.tongtien = tongtien;
-            this.idkhachhang = idkhachhang;
-            this.phuongthucthanhtoan = phuongthucthanhtoan;
-            this.trangthaithanhtoan = trangthaithanhtoan;
-            this.mail = mail;
-        }
+        
 
         public HoaDon(int idhoadon, DateTime? ngaylap, double? tongtien, int? idkhachhang, byte? phuongthucthanhtoan, bool? trangthaithanhtoan, bool? mail1)
         {
@@ -236,14 +220,13 @@ namespace POSService
             this.trangthaithanhtoan = trangthaithanhtoan;
             this.mail1 = mail1;
         }
-
         public int IdHoaDon { get => idHoaDon; set => idHoaDon = value; }
         public DateTime NgayLap { get => ngayLap; set => ngayLap = value; }
         public double TongTien { get => tongTien; set => tongTien = value; }
         public int IdKhachHang { get => idKhachHang; set => idKhachHang = value; }
         public byte PhuongThucThanhToan { get => phuongThucThanhToan; set => phuongThucThanhToan = value; }
         public bool TrangThaiThanhToan { get => trangThaiThanhToan; set => trangThaiThanhToan = value; }
-        public bool Mail { get => mail; set => mail = value; }
+        public bool? Mail { get => mail1; set => mail1 = value; }
     }
 
     [DataContract]

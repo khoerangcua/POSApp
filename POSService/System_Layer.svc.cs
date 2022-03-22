@@ -144,6 +144,11 @@ namespace POSService
             return sanPhams;
         }
 
+        public bool QuetTheAPI()
+        {
+            return true;
+        }
+
         public bool RemoveHoaDonItem(int idhoadon, int idsanpham)
         {
             bool xoathanhcong = false;

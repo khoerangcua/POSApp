@@ -23,7 +23,7 @@ namespace POSService
         [OperationContract]
         bool ThanhToanBangThe(int idhoadon);
         [OperationContract]
-        void GuiMail(int idhoadon);
+        bool GuiMail(int idhoadon);
     }
     #endregion
 

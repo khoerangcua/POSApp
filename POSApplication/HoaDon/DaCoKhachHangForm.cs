@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace POSApplication
+namespace POSApplication.HoaDon
 {
-    public partial class MainForm : Form
+    public partial class DaCoKhachHangForm : Form
     {
-        public MainForm()
+        public DaCoKhachHangForm()
         {
             InitializeComponent();
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

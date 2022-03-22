@@ -69,6 +69,7 @@ namespace POSService
             {
                 System_Layer.RemoveHoaDonItem(idhoadon, idsanpham);
             }
+            Task_Layer.UpdateTongTienHoaDon(idhoadon);
             hoaDons = System_Layer.GetHoaDonInfor(idhoadon);
             return hoaDons;
         }

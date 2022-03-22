@@ -55,7 +55,7 @@ namespace POSService
             KhachHang khachHang;
 
             hoaDon = System_Layer.GetHoaDonInfor(idhoadon);
-            khachHang = System_Layer.GetKhachHangById(hoaDon.IdKhachHang);
+            khachHang = System_Layer.GetKhachHangById(hoaDon.Idkhachhang.GetValueOrDefault());
             chiTietHoaDons = System_Layer.GetHoaDonItems(idhoadon);
             guimailthanhcong = System_Layer.SendMailAPI(hoaDon, khachHang, chiTietHoaDons);
             updatemailtohoadonthanhcong = System_Layer.UpdateMailToHoaDon(idhoadon, true);

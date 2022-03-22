@@ -9,4 +9,3 @@ E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSDataModel\obj\Debug\POSDataModel.
 E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSDataModel\obj\Debug\POSDataModel.csproj.CopyComplete
 E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSDataModel\obj\Debug\POSDataModel.exe
 E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSDataModel\obj\Debug\POSDataModel.pdb
-E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSDataModel\obj\Debug\POSDataModel.csproj.AssemblyReference.cache

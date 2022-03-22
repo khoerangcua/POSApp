@@ -66,8 +66,16 @@ namespace POSService
             GiamGia giamGia;
             using (POSEntities db = new POSEntities())
             {
-                var r = db.tbl_giamgia.FirstOrDefault(gg => gg.idhanghoa == idsanpham && gg.ngaybatdau <= DateTime.Now && gg.ngayketthuc <= DateTime.Now);
-                giamGia = new GiamGia(r.idgiamgia, r.ngaybatdau, r.ngayketthuc, r.phantramgiam, r.idhanghoa);
+                var r = db.tbl_giamgia.FirstOrDefault(gg => gg.idhanghoa == idsanpham && gg.ngaybatdau <= DateTime.Now && gg.ngayketthuc >= DateTime.Now);
+                if (r == default)
+                {
+                    giamGia = new GiamGia(0, DateTime.Now, DateTime.Now, 0, idsanpham);
+                }
+                else
+                {
+                    giamGia = new GiamGia(r.idgiamgia, r.ngaybatdau, r.ngayketthuc, 1 - r.phantramgiam, r.idhanghoa);
+                }
+                
             }
             return giamGia;
         }
@@ -113,8 +121,16 @@ namespace POSService
             KhachHang khachHang;
             using (POSEntities db = new POSEntities())
             {
-                var r = db.tbl_khachhang.FirstOrDefault(kh => kh.sodienthoai == numphone);
-                khachHang = new KhachHang(r.idkhachhang, r.tenkhachhang, r.emai, r.sodienthoai, r.diachi);
+                var r = db.tbl_khachhang.FirstOrDefault(kh => String.Compare(kh.sodienthoai, numphone) == 0);
+                if (r == default)
+                {
+                    khachHang = new KhachHang(0, "", "", "", "");
+                }
+                else
+                {
+                    khachHang = new KhachHang(r.idkhachhang, r.tenkhachhang, r.emai, r.sodienthoai, r.diachi);
+                }
+                
             }
             return khachHang;
         }
@@ -158,6 +174,7 @@ namespace POSService
                 db.tbl_chitiethoadon.Remove(r);
                 xoathanhcong = db.SaveChanges() >= 1 ? true : false;
             }
+       
             return xoathanhcong;
 
         }
@@ -172,7 +189,7 @@ namespace POSService
             HoaDon hoadonmoi;
             using (POSEntities db = new POSEntities())
             {
-                var r = db.tbl_hoadon.Add(new tbl_hoadon());
+                var r = db.tbl_hoadon.Add(new tbl_hoadon() { ngaylap = DateTime.Now});
                 db.SaveChanges();             
                 hoadonmoi = new HoaDon(r.idhoadon, r.ngaylap, r.tongtien, r.idkhachhang, r.phuongthucthanhtoan, r.trangthaithanhtoan, r.mail);
             }
@@ -186,6 +203,7 @@ namespace POSService
             {
                 var r = db.tbl_chitiethoadon.FirstOrDefault(ct => ct.idhoadon == idhoadon && ct.idhanghoa == idsanpham);
                 r.soluong = r.soluong - 1;
+                r.tongcong = r.dongia * r.phantramgiam * r.soluong;
                 capnhatthanhcong = db.SaveChanges() >= 1 ?true:false;
             }
             return capnhatthanhcong;

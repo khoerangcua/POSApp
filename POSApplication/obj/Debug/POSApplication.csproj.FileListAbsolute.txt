@@ -14,3 +14,6 @@ E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\obj\Debug\POSApplicat
 E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\obj\Debug\POSApplication.csproj.CoreCompileInputs.cache
 E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\obj\Debug\POSApplication.exe
 E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\obj\Debug\POSApplication.pdb
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\bin\Debug\POSApplication.exe.config
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\bin\Debug\POSApplication.exe
+E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\bin\Debug\POSApplication.pdb

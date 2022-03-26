@@ -16,5 +16,10 @@ namespace POSApplication.SanPham
         {
             InitializeComponent();
         }
+
+        private void SanPhamsForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -33,8 +33,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,6 +47,7 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DanhMucSanPham\DanhMucForm.cs">
@@ -132,6 +136,12 @@
     <Compile Include="SanPham\SanPhamsForm.Designer.cs">
       <DependentUpon>SanPhamsForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DanhMucSanPham\DanhMucForm.resx">
+      <DependentUpon>DanhMucForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanhMucSanPham\DanhMucsForm.resx">
+      <DependentUpon>DanhMucsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +154,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SanPham\SanPhamForm.resx">
+      <DependentUpon>SanPhamForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SanPham\SanPhamsForm.resx">
+      <DependentUpon>SanPhamsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

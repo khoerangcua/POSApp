@@ -14,12 +14,29 @@ namespace POSApplication
     {
         public MainForm()
         {
+
             InitializeComponent();
+            
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void menupanel_Paint(object sender, PaintEventArgs e)
+        {
+            
         }
     }
 }

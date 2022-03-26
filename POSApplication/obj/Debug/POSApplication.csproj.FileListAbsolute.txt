@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Code\TestGit4\POSApp\POSApplication\bin\Debug\POSApplication.exe.config
 D:\Code\TestGit4\POSApp\POSApplication\bin\Debug\POSApplication.exe
 D:\Code\TestGit4\POSApp\POSApplication\bin\Debug\POSApplication.pdb
@@ -17,3 +18,22 @@ E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\obj\Debug\POSApplicat
 E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\bin\Debug\POSApplication.exe.config
 E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\bin\Debug\POSApplication.exe
 E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\bin\Debug\POSApplication.pdb
+=======
+C:\Users\Cong Dat\Documents\POSApp\POSApplication\bin\Debug\POSApplication.exe.config
+C:\Users\Cong Dat\Documents\POSApp\POSApplication\bin\Debug\POSApplication.exe
+C:\Users\Cong Dat\Documents\POSApp\POSApplication\bin\Debug\POSApplication.pdb
+C:\Users\Cong Dat\Documents\POSApp\POSApplication\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Cong Dat\Documents\POSApp\POSApplication\obj\Debug\POSApplication.csproj.AssemblyReference.cache
+C:\Users\Cong Dat\Documents\POSApp\POSApplication\obj\Debug\POSApplication.csproj.SuggestedBindingRedirects.cache
+C:\Users\Cong Dat\Documents\POSApp\POSApplication\obj\Debug\POSApplication.DanhMucSanPham.DanhMucForm.resources
+C:\Users\Cong Dat\Documents\POSApp\POSApplication\obj\Debug\POSApplication.DanhMucSanPham.DanhMucsForm.resources
+C:\Users\Cong Dat\Documents\POSApp\POSApplication\obj\Debug\POSApplication.MainForm.resources
+C:\Users\Cong Dat\Documents\POSApp\POSApplication\obj\Debug\POSApplication.Properties.Resources.resources
+C:\Users\Cong Dat\Documents\POSApp\POSApplication\obj\Debug\POSApplication.SanPham.SanPhamForm.resources
+C:\Users\Cong Dat\Documents\POSApp\POSApplication\obj\Debug\POSApplication.SanPham.SanPhamsForm.resources
+C:\Users\Cong Dat\Documents\POSApp\POSApplication\obj\Debug\POSApplication.csproj.GenerateResource.cache
+C:\Users\Cong Dat\Documents\POSApp\POSApplication\obj\Debug\POSApplication.csproj.CoreCompileInputs.cache
+C:\Users\Cong Dat\Documents\POSApp\POSApplication\obj\Debug\POSApplication.csproj.CopyComplete
+C:\Users\Cong Dat\Documents\POSApp\POSApplication\obj\Debug\POSApplication.exe
+C:\Users\Cong Dat\Documents\POSApp\POSApplication\obj\Debug\POSApplication.pdb
+>>>>>>> master

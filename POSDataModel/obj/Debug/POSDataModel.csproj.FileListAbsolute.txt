@@ -1,0 +1,10 @@
+C:\Users\Cong Dat\Documents\POSApp\POSDataModel\bin\Debug\POSDataModel.exe.config
+C:\Users\Cong Dat\Documents\POSApp\POSDataModel\bin\Debug\POSDataModel.exe
+C:\Users\Cong Dat\Documents\POSApp\POSDataModel\bin\Debug\POSDataModel.pdb
+C:\Users\Cong Dat\Documents\POSApp\POSDataModel\obj\Debug\POSDataModel.csproj.AssemblyReference.cache
+C:\Users\Cong Dat\Documents\POSApp\POSDataModel\obj\Debug\POSDataModel.csproj.SuggestedBindingRedirects.cache
+C:\Users\Cong Dat\Documents\POSApp\POSDataModel\obj\Debug\POSDataModel.Properties.Resources.resources
+C:\Users\Cong Dat\Documents\POSApp\POSDataModel\obj\Debug\POSDataModel.csproj.GenerateResource.cache
+C:\Users\Cong Dat\Documents\POSApp\POSDataModel\obj\Debug\POSDataModel.csproj.CoreCompileInputs.cache
+C:\Users\Cong Dat\Documents\POSApp\POSDataModel\obj\Debug\POSDataModel.exe
+C:\Users\Cong Dat\Documents\POSApp\POSDataModel\obj\Debug\POSDataModel.pdb

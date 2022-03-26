@@ -8,3 +8,17 @@ E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\obj\Debug\POSApplicat
 E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\obj\Debug\POSApplication.csproj.CoreCompileInputs.cache
 E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\obj\Debug\POSApplication.exe
 E:\HocTap\2022-HKD\SOA\Project\Software\POS\POSApplication\obj\Debug\POSApplication.pdb
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSApplication\bin\Debug\POSApplication.exe.config
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSApplication\bin\Debug\POSApplication.exe
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSApplication\bin\Debug\POSApplication.pdb
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSApplication\obj\Debug\POSApplication.csproj.AssemblyReference.cache
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSApplication\obj\Debug\POSApplication.KhachHang.ChonKhachHangForm.resources
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSApplication\obj\Debug\POSApplication.MainForm.resources
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSApplication\obj\Debug\POSApplication.Properties.Resources.resources
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSApplication\obj\Debug\POSApplication.csproj.GenerateResource.cache
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSApplication\obj\Debug\POSApplication.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSApplication\obj\Debug\POSApplication.exe
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSApplication\obj\Debug\POSApplication.pdb
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSApplication\obj\Debug\POSApplication.KhachHang.TimKiemKhachHangForm.resources
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSApplication\obj\Debug\POSApplication.KhachHang.TaoMoiKhachHangForm.resources
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSApplication\obj\Debug\POSApplication.KhachHang.ThongTinKhachHangForm.resources

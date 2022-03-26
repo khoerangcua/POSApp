@@ -1,0 +1,9 @@
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSDataModel\bin\Debug\POSDataModel.exe.config
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSDataModel\bin\Debug\POSDataModel.exe
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSDataModel\bin\Debug\POSDataModel.pdb
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSDataModel\obj\Debug\POSDataModel.csproj.AssemblyReference.cache
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSDataModel\obj\Debug\POSDataModel.Properties.Resources.resources
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSDataModel\obj\Debug\POSDataModel.csproj.GenerateResource.cache
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSDataModel\obj\Debug\POSDataModel.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSDataModel\obj\Debug\POSDataModel.exe
+C:\Users\Lucas\Desktop\DASOA\POSApp\POSDataModel\obj\Debug\POSDataModel.pdb

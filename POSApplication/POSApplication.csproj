@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -132,6 +133,18 @@
     <Compile Include="SanPham\SanPhamsForm.Designer.cs">
       <DependentUpon>SanPhamsForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="KhachHang\ChonKhachHangForm.resx">
+      <DependentUpon>ChonKhachHangForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachHang\TaoMoiKhachHangForm.resx">
+      <DependentUpon>TaoMoiKhachHangForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachHang\ThongTinKhachHangForm.resx">
+      <DependentUpon>ThongTinKhachHangForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachHang\TimKiemKhachHangForm.resx">
+      <DependentUpon>TimKiemKhachHangForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>

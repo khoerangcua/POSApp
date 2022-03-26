@@ -39,6 +39,7 @@ namespace POSApplication.KhachHang
             this.tenLabel = new System.Windows.Forms.Label();
             this.idLabel = new System.Windows.Forms.Label();
             this.anhdaidienPictureBox = new System.Windows.Forms.PictureBox();
+            this.themkhachhangButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.anhdaidienPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -129,11 +130,24 @@ namespace POSApplication.KhachHang
             this.anhdaidienPictureBox.TabIndex = 62;
             this.anhdaidienPictureBox.TabStop = false;
             // 
+            // themkhachhangButton
+            // 
+            this.themkhachhangButton.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.themkhachhangButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.themkhachhangButton.ForeColor = System.Drawing.Color.White;
+            this.themkhachhangButton.Location = new System.Drawing.Point(372, 524);
+            this.themkhachhangButton.Name = "themkhachhangButton";
+            this.themkhachhangButton.Size = new System.Drawing.Size(132, 30);
+            this.themkhachhangButton.TabIndex = 63;
+            this.themkhachhangButton.Text = "Thêm mới khách hàng";
+            this.themkhachhangButton.UseVisualStyleBackColor = false;
+            // 
             // TaoMoiKhachHangForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(834, 534);
+            this.ClientSize = new System.Drawing.Size(834, 578);
+            this.Controls.Add(this.themkhachhangButton);
             this.Controls.Add(this.anhdaidienPictureBox);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
@@ -167,5 +181,6 @@ namespace POSApplication.KhachHang
         private System.Windows.Forms.Label tenLabel;
         private System.Windows.Forms.Label idLabel;
         private System.Windows.Forms.PictureBox anhdaidienPictureBox;
+        private System.Windows.Forms.Button themkhachhangButton;
     }
 }

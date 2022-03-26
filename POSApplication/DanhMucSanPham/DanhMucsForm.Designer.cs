@@ -29,12 +29,36 @@ namespace POSApplication.DanhMucSanPham
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.dmpanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.SuspendLayout();
+            // 
+            // dmpanel
+            // 
+            this.dmpanel.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.dmpanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dmpanel.Location = new System.Drawing.Point(0, 0);
+            this.dmpanel.Name = "dmpanel";
+            this.dmpanel.Size = new System.Drawing.Size(350, 1033);
+            this.dmpanel.TabIndex = 0;
+            this.dmpanel.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
+            // 
+            // DanhMucsForm
+            // 
+            this.AllowDrop = true;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
+            this.ClientSize = new System.Drawing.Size(350, 1033);
+            this.Controls.Add(this.dmpanel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "DanhMucsForm";
             this.Text = "DanhMucsForm";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.FlowLayoutPanel dmpanel;
     }
 }

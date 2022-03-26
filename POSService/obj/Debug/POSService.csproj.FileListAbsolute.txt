@@ -1,0 +1,7 @@
+C:\Users\Cong Dat\Documents\POSApp\POSService\bin\POSService.dll.config
+C:\Users\Cong Dat\Documents\POSApp\POSService\bin\POSService.dll
+C:\Users\Cong Dat\Documents\POSApp\POSService\bin\POSService.pdb
+C:\Users\Cong Dat\Documents\POSApp\POSService\obj\Debug\POSService.csproj.AssemblyReference.cache
+C:\Users\Cong Dat\Documents\POSApp\POSService\obj\Debug\POSService.csproj.CoreCompileInputs.cache
+C:\Users\Cong Dat\Documents\POSApp\POSService\obj\Debug\POSService.dll
+C:\Users\Cong Dat\Documents\POSApp\POSService\obj\Debug\POSService.pdb

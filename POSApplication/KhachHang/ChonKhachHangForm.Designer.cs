@@ -29,10 +29,17 @@ namespace POSApplication.KhachHang
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // ChonKhachHangForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1238, 573);
+            this.Name = "ChonKhachHangForm";
             this.Text = "ChonKhachHangForm";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

@@ -76,6 +76,12 @@
     <Compile Include="HoaDon\HoaDonForm.Designer.cs">
       <DependentUpon>HoaDonForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="HoaDon\HoaDonItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HoaDon\HoaDonItemForm.Designer.cs">
+      <DependentUpon>HoaDonItemForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="HoaDon\LuaChonMailForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +138,27 @@
     <Compile Include="SanPham\SanPhamsForm.Designer.cs">
       <DependentUpon>SanPhamsForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="HoaDon\ChuaCoKhachHangForm.resx">
+      <DependentUpon>ChuaCoKhachHangForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HoaDon\DaCoKhachHangForm.resx">
+      <DependentUpon>DaCoKhachHangForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HoaDon\HoaDonForm.resx">
+      <DependentUpon>HoaDonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HoaDon\HoaDonItemForm.resx">
+      <DependentUpon>HoaDonItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HoaDon\LuaChonMailForm.resx">
+      <DependentUpon>LuaChonMailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HoaDon\PhuongThucThanhToanForm.resx">
+      <DependentUpon>PhuongThucThanhToanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachHang\ChonKhachHangForm.resx">
+      <DependentUpon>ChonKhachHangForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>

@@ -16,5 +16,10 @@ namespace POSApplication.HoaDon
         {
             InitializeComponent();
         }
+
+        private void LuaChonMailForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace POSApplication.HoaDon
 {
-    public partial class PhuongThucThanhToanForm : Form
+    public partial class HoaDonItemForm : Form
     {
-        public PhuongThucThanhToanForm()
+        public HoaDonItemForm()
         {
             InitializeComponent();
         }
@@ -22,12 +22,12 @@ namespace POSApplication.HoaDon
 
         }
 
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
 
-        private void tienmatRadiobtn_CheckedChanged(object sender, EventArgs e)
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }
